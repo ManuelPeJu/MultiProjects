@@ -5,11 +5,13 @@ const movieEl = document.querySelector("video")
 
 btnEl.addEventListener("click", () => {
     trailerContainerEl.classList.remove("active");
+    movieEl.autoplay = true;
 })
 
 
 closeIconEl.addEventListener("click", () => {
     trailerContainerEl.classList.add("active");
     movieEl.pause();
-    videlEl.currentTime = 0;
+    movieEl.currentTime = 0;
+    
 })
