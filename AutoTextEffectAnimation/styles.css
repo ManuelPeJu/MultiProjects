@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter&family=Permanent+Marker&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    font-family: "Permanent Marker", cursive;
+
+}
