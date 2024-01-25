@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: chocolate;
+    transition: .4s;
 }
 
 .input {
