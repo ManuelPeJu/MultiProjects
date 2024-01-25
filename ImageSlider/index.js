@@ -17,7 +17,7 @@ const updateImg = () => {
     timeOut = setTimeout(() => {
         currentImage++;
         updateImg()
-    },3000)
+    },5000)
 }
 
 updateImg();
